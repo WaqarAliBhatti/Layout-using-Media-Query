@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+header{
+border: 3px solid black;
+clear: both;
+}
+section{
+    border: 3px solid black;
+    height: 25%;
+    width: 33.33%;
+    float: left;
+
+}
+footer{
+    border: 3px solid black;
+    width: 50%;
+    clear: both;
+
+}
+@media only screen and (width:600px) {
+    section,footer, .sec-one, .sec-two{
+        width: 100%;
+    }
+    
+}
